@@ -1,0 +1,12 @@
+extends layout
+
+block content 
+    h1 Pagina dinamica 
+    if dato
+        h2 id es: #{dato.id}
+        h2 nombre es: #{dato.nombre}
+    else 
+        h2 no hay usuario 
+
+    p 
+        a(href="http://google.com.mx") Google

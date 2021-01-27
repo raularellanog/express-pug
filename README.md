@@ -10,3 +10,7 @@
 crear un nuevo proyecto con pug 
 
 `> express --view:pug name-project`
+
+ejecutar proyecto
+
+`set DEBUG=name-project:* && npm start`
